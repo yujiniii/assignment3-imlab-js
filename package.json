@@ -1,0 +1,26 @@
+{
+  "name": "assignment3-imlab",
+  "version": "1.0.0",
+  "description": "- [게시판 관리 RESTful API 서버](https://my-node-project-2.ue.r.appspot.com/api-docs/)가 오픈되었습니다!",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yujiniii/assignment3-imlab-js.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/yujiniii/assignment3-imlab-js/issues"
+  },
+  "homepage": "https://github.com/yujiniii/assignment3-imlab-js#readme",
+  "dependencies": {
+    "dotenv": "^16.0.2",
+    "express": "^4.18.1",
+    "morgan": "^1.10.0",
+    "nodemon": "^2.0.19",
+    "sequelize": "^6.21.6"
+  }
+}
