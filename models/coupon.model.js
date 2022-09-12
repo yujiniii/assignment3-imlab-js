@@ -22,6 +22,10 @@ const Coupon = (sequelize) =>
         type: DataTypes.STRING,
         allowNull: false,
       },
+      isUsed : {
+        type: DataTypes.BOOLEAN,
+        allowNull: false,
+      }
     },
     {
       charset: "utf8mb4",
